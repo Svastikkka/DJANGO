@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet"  type="text/css" href="{% static 'css/sample.css' %}">
+</head>
+<body>
+
+<h1>Seventh Project</h1>
+<p>Welcome to my Seventh Django project!</p>
+    <div class="access_records">
+        {% if access_records %}
+        <table>
+            <thead>
+                <th>Site Name</th>
+                <th>Date Accessed</th>
+            </thead>
+            {% for acc in access_records %}
+            <tr>
+                <td>{{ acc.name }}</td>
+                <td>{{ acc.date }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+            <p>No acc found</p>
+        {% endif %}
+    </div>
+    <img src="{% static "images/Django.jpg" %}" alt="Some problem here">
+</body>
+</html>
