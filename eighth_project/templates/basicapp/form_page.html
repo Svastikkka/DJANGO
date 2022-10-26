@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h1>Fill the form</h1>
+    <div class="access_records">
+        <form method="POST">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
