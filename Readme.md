@@ -1,3 +1,18 @@
+# Index
+- First Project : Creating a view and mapping it to an index URL
+- Second Project :
+- Third Project :
+- Fourth Project :
+- Fifth Project :
+- Sixth Project :
+- Seventh Project :
+- Eighth Project :
+- Ninth Project : Model Form ( To save information inside DB using model )
+- Tenth Project : Relative Url
+- Eleventh Project : Template Inheritance
+- Twelfth Project : Template Filter & Custom Filter
+---
+
 - To install django
 `pip install dango`
 - When you install Django, it actually also installed a command line tool called:
@@ -27,7 +42,26 @@ Run 'python manage.py migrate' to apply them.
 - A Django Project is a collection of applications and configurations that when combined together will make up the full web application (your complete website running with Django)
 - A Django Application is created to perform a particular functionality for your entire web application. For example you could have a registration app, a polling app, comments app, etc.
 - These Django Apps can then be plugged into other Django Projects, so you can reuse them! (Or use other people’s apps)
-- To create a simple application with: `python manage.py startapp first_app`
+
+## Templates
+- The template will contain the static parts of an html page (parts that are always the same)
+
+## Migration
+- `python manage.py migrate`
+- `python manage.py makemigrations APP_NAME`
+- `python manage.py migrate`
+
+## Super User
+- To create a superuser: `python manage.py createsuperuser`
+
+## Mongo DB Integration
+- https://www.mongodb.com/compatibility/mongodb-and-django
 
 ## Reference
 https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit#slide=id.g1c3e28ca26_0_14
+https://www.w3schools.com/django/index.php
+https://www.wikimatrix.org/compare/xwiki+wiki-js+zoho-wiki
+https://docs.requarks.io
+
+## Note
+- ninth_project for model form 138
