@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "../navigation/navigation.html" %}
+{% block body_block %}
+    <div class="container-fluid">
+        <h1>Sample Header</h1>
+        {{ sample_context|upper }}
+        {{ sample_number|add:'99' }}
+        <h1>Applying Custom Cut Filter</h1>
+        {{ sample_context|cut:'Hello' }}
+    </div>
+{% endblock %}
