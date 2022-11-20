@@ -21,4 +21,6 @@ urlpatterns = [
     path(r'', app_two.index, name='index'),
     path('admin/', admin.site.urls),
     path(r'help/', include('help.urls')),
+    path(r'users/', include('users.urls')),
+    path(r'signup/', include('signup.urls')),
 ]

@@ -1,6 +1,6 @@
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "seventh_project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pro_two.settings")
 
 import django
 
@@ -8,33 +8,23 @@ django.setup()
 
 # Fake population script
 import random
-from seventh_app.models import AccessRecord, Topic, Webpage
+from users.models import users
 from faker import Faker
 
 fakegen = Faker()
-topics = ['Search', 'Social', 'News', 'Games', 'Marketplace']
 
-
-def add_topic():
-    t = Topic.objects.get_or_create(topic_name=random.choice(topics))[0]
-    t.save()
-    return t
 
 
 def populate(N=5):
     for entry in range(N):
-        # get the topic for the entry
-        fake_top = add_topic()
-        # Create fake data
-        fake_url = fakegen.url()
-        fake_date = fakegen.date()
-        fake_name = fakegen.company()
+        fake_name = fakegen.name().split()
+        fake_first_name = fake_name[0]
+        fake_last_name = fake_name[1]
+        fake_email = fakegen.email()
 
-        # create fake webpage entry
-        webpg = Webpage.objects.get_or_create(topic=fake_top, url=fake_url, name=fake_url)[0]
-
-        # Create fake access records
-        acc_rec = AccessRecord.objects.get_or_create(name=webpg, date=fake_date)[0]
+        print(fake_email, fake_last_name, fake_first_name)
+        # create fake user entry
+        User = users.objects.get_or_create(first_name=fake_first_name, last_name=fake_last_name, email=str(fake_email))[0]
 
 
 if __name__ == '__main__':
