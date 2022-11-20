@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
+<head>
+    <link rel="stylesheet"  type="text/css" href="{% static 'css/sample.css' %}">
+</head>
 <body>
 
-<h1>Hello World!</h1>
-<p>Welcome to my first Django project!</p>
+<h1>Fourth Project</h1>
+<p>Welcome to my Fourth Django project!</p>
 {{ insert_me  }}
+<img src="{% static "images/Django.jpg" %}" alt="Some problem here">
 </body>
 </html>
