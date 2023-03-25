@@ -56,6 +56,10 @@ Run 'python manage.py migrate' to apply them.
 
 ## Reference
 - [Django Level One](https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit?usp=sharing)
+- [Django Level Two](https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit?usp=sharing)
+- [Django Level Three](https://docs.google.com/presentation/d/1SHhEI0n-9YUeh54-DYt80XYWsj8_o_fsZ5avuVhMDKk/edit?usp=sharing)
+- [Djnago Level Four](https://docs.google.com/presentation/d/1wMvc2Nkmxbj44t5Qaa7NoNTYM6-WaGmt6H7unlKdF0o/edit?usp=sharing)
+- [Django Level Five](https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQJfzpJVxooB5QCGtDJq2eVks/edit?usp=sharing)
 - https://www.w3schools.com/django/index.php
 - https://docs.requarks.io
 - https://www.mongodb.com/compatibility/mongodb-and-django
