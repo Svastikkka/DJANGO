@@ -4,9 +4,9 @@
 - Third Project : Templates
 - Fourth Project : Static Files
 - Fifth Project : Models & Migration
-- Sixth Project :
-- Seventh Project :
-- Eighth Project :
+- Sixth Project : Populating fake data using faker inside sqlite DB
+- Seventh Project : Access data from DB to template using MVT
+- Eighth Project : Creating Form with Validators
 - Ninth Project : Model Form ( To save information inside DB using model )
 - Tenth Project : Relative Url
 - Eleventh Project : Template Inheritance
