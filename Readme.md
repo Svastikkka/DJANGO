@@ -1,9 +1,9 @@
 # Index
 - First Project : Creating a view and mapping it to an index URL
 - Second Project :
-- Third Project :
-- Fourth Project :
-- Fifth Project :
+- Third Project : Templates
+- Fourth Project : Static Files
+- Fifth Project : Models & Migration
 - Sixth Project :
 - Seventh Project :
 - Eighth Project :
@@ -54,14 +54,11 @@ Run 'python manage.py migrate' to apply them.
 ## Super User
 - To create a superuser: `python manage.py createsuperuser`
 
-## Mongo DB Integration
-- https://www.mongodb.com/compatibility/mongodb-and-django
-
 ## Reference
-https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit#slide=id.g1c3e28ca26_0_14
-https://www.w3schools.com/django/index.php
-https://www.wikimatrix.org/compare/xwiki+wiki-js+zoho-wiki
-https://docs.requarks.io
+- https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit#slide=id.g1c3e28ca26_0_14
+- https://www.w3schools.com/django/index.php
+- https://docs.requarks.io
+- https://www.mongodb.com/compatibility/mongodb-and-django
 
 ## Note
 - ninth_project for model form 138
