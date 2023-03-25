@@ -55,7 +55,7 @@ Run 'python manage.py migrate' to apply them.
 - To create a superuser: `python manage.py createsuperuser`
 
 ## Reference
-- https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit#slide=id.g1c3e28ca26_0_14
+- [Django Level One](https://docs.google.com/presentation/d/1XQr2C3E_jVjDvCm_Z9yZPVOAop72OP7ZatOjnJZCl-k/edit#slide=id.g1c3e28ca26_0_14)
 - https://www.w3schools.com/django/index.php
 - https://docs.requarks.io
 - https://www.mongodb.com/compatibility/mongodb-and-django
